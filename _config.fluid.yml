@@ -768,11 +768,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus | discuss
-    type: disqus
+    type: utterances
 
 
 #---------------------------
@@ -788,7 +788,7 @@ post:
 # Based on GitHub Issues
 # See: https://utteranc.es
 utterances:
-  repo:
+  repo: 28TheCat/28TheCat.github.io
   issue_term: pathname
   label: utterances
   theme: github-light
@@ -1010,7 +1010,7 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/28TheCat", tip: "GitHub" }
     - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
 
